@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="110dp"
+        android:id="@+id/paytmcash"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:elevation="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@color/colorred"
+                android:text="
+
+     50% Cashback"
+                android:textColor="#fff"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/paytm2" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="110dp"
+        android:id="@+id/hdfc"
+        android:layout_height="70dp"
+        android:layout_marginTop="-70dp"
+        android:layout_marginLeft="140dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="#ff4e45"
+                android:text="
+
+         25% OFF"
+                android:textColor="#fff"
+
+                android:textSize="14dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/hdfc2" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="80dp"
+        android:id="@+id/axis"
+        android:layout_height="70dp"
+        android:layout_marginTop="-70dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginRight="30dp"
+        android:elevation="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="#7c0434"
+                android:text="
+
+  10%  DISCOUNT"
+                android:textColor="#fff"
+
+                android:textSize="14dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/axis" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:id="@+id/upi"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="25dp"
+        android:elevation="6dp">
+
+        <LinearLayout
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="382dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="#ff4e45"
+                android:text="
+
+                                               20% OFF"
+                android:textColor="#fff"
+
+                android:textSize="14dp" />
+
+            <ImageView
+                android:layout_width="372dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/upi" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+ </LinearLayout>
